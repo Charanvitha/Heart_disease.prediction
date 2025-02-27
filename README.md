@@ -1,18 +1,18 @@
 # Heart_disease.prediction
-Overview
+# Overview
 
 This project focuses on predicting heart disease using machine learning techniques. The system analyzes patient data and risk factors to determine the likelihood of heart disease. The implementation is carried out in Google Colab, leveraging its cloud-based resources for efficient processing.
 
-Requirements
+# Requirements
 
 !pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras
 
-Dataset
+# Dataset
 
 Public datasets like UCI Heart Disease Dataset or Framingham Heart Study can be used.
 Custom datasets can be created using medical records, ECG logs, or wearable device data.
 
-Usage
+# Usage
 
 1.Clone the repository (if applicable) or upload files to Google Colab.
 2.Load dataset: Use pandas or numpy to read data.
@@ -21,7 +21,7 @@ Usage
 5.Make predictions: Test the model on unseen data.
 Visualize results: Plot graphs to analyze trends.
 
-Eample Code
+# Example Code
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -37,20 +37,13 @@ model.fit(X_train, y_train)
 # Predict
 predictions = model.predict(X_test)
 
-Applications
+# Applications
 
 Healthcare Diagnosis Assistance
-
 Risk Factor Analysis
-
 Early Detection of Heart Disease
-
 Preventive Healthcare Measures
-
 Future Enhancements
-
 Integration with IoT devices for real-time monitoring.
-
 Improved deep learning models for better accuracy.
-
 Mobile app support for patient health tracking.
